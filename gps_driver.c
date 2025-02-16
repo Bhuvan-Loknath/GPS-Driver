@@ -10,8 +10,8 @@
 #include <linux/serial_core.h>
 #include <linux/delay.h>
 
-#define SERIAL_PORT "/dev/ttyS0" // Define the serial port
-#define BAUD_RATE 9600 // Define the baud rate
+#define SERIAL_PORT "/dev/ttyS0" // Serial port
+#define BAUD_RATE 9600 // Baud rate
 
 /* Global variables */
 static struct kobject *gps_kobj; // Kobject for sysfs entry
